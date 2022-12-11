@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Floral Art by Isabelle</title>
+		<title>Welcome</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -112,13 +112,15 @@
 			<section id="contact" class="main style3 secondary">
 				<div class="content">
 					<header>
-						<h2>Reach Out</h2>
-						<p>Like what you see here? Your very own floral memory is waiting to be created. 
-							<br />Send us a message with what you're dreaming up, and we'll respond within 48hrs. <br />
-							We look forward to serving you.</p>
+					<h2>Reach Out</h2>
+					<p>Like what you see here? Your very own floral memory is waiting to be created.<br />
+					Send us a message with what you're dreaming up, and we'll respond within 48hrs. <br />
+					We look forward to serving you.</p>
+					</header>
 					</header>
 					<div class="box">
-						<form name="contactUs" method="POST" data-netlify="true">
+
+						<form name="contact" method="POST" netlify>
 							<p class="input">
 							  <label>Your Name: <input type="text" name="name" /></label>
 							</p>
@@ -126,9 +128,12 @@
 							  <label>Your Email: <input type="email" name="email" /></label>
 							</p>
 							<p>
-							  <label>Message: <textarea name="message"></textarea></label>
+							  <label>Message: <textarea name="message" placeholder="We're sorry, but the contact form is disabled at the moment."></textarea></label>
 							</p>
-							  <button type="submit">Send</button>
+							<ul class="buttons">
+								<li><button type="submit" class="button primary">Submit</button></li>
+								<li><button type="reset" class="button">Reset Form</button></li>
+							</ul>
 						  </form>						  
 					</div>
 				</div>
@@ -146,7 +151,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Kelly Dietrich.</li><li>Design: <a href="https://html5up.net">TEMPLATED</a></li>
+						<li>&copy; <a href="https://kellydietrich.me">Kelly Dietrich</a>.</li><li>Design: <a href="https://html5up.net">TEMPLATED</a></li>
 					</ul>
 
 			</footer>
